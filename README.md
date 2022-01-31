@@ -1,1 +1,23 @@
 # Jetpack Compose Sample BoilerPlate
+
+```
+├── manager  
+│   ├── api
+│   │   ├── ...
+│   ├── cache
+│   │   ├── ...
+│   └── on-simplicity-in-technology.md
+├── model 
+│   ├── ...
+├── ui
+│   ├── component
+│   │   └── ...
+│   ├── page
+│   │   └── ...
+|   ├── theme
+│   │   └── ...
+│   └── MainActivity.kt
+├── util
+    └── ...
+```
+
