@@ -6,7 +6,7 @@
 │   │   ├── ...
 │   ├── cache
 │   │   ├── ...
-│   └── on-simplicity-in-technology.md
+│   └── AppDatabase.kt
 ├── model 
 │   ├── ...
 ├── ui
@@ -20,4 +20,25 @@
 ├── util
     └── ...
 ```
+
+## Summary 
+
+### UI Kit
+Is using `Jetpack Compose`
+
+### Database
+Is using `Room`
+
+### Cache
+Is using `proto dataStore`
+
+### DI
+Is using `hilt`
+
+### ViewModel Injection
+Is also using `hilt`
+
+### Network
+Up to you `(retrofit/ktor)`, here is using `retrofit`
+
 
