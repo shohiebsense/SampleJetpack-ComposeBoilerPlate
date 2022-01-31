@@ -1,4 +1,4 @@
-package com.example.sampleboilerplate
+package com.example.sampleboilerplate.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
