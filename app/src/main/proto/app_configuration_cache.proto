@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.example.sampleboilerplate";
+option java_multiple_files = true;
+
+
+//app onboarding state, [notfinished, skipped, finished,]
+message AppConfigurationCacheProto {
+    int32 onBoardingState = 1;
+}

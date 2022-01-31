@@ -1,0 +1,37 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        //no need to upgrade gradle plugin per 2021 july
+
+        //dont upgrade further yet per 2021 july
+        //affected modules: hilt
+        classpath 'com.android.tools.build:gradle:7.0.4'
+
+        //dont upgrade to 1.5.20 yet. per 2021 july
+        //affected modules: hilt
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10'
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.40.1'
+
+        classpath 'com.google.gms:google-services:4.3.10'
+
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '7.1.0' apply false
+    id 'com.android.library' version '7.1.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.5.21' apply false
+}
+
+
+
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
