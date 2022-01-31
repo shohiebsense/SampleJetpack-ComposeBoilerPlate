@@ -5,7 +5,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 
-//info you can add constructor here
+//info you can add param here
 @HiltViewModel
 class SampleViewModel @Inject constructor(
 )  : ViewModel() { //or using baseviewmodel
